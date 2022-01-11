@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('../images/bg_header.jpg');
+    background-position: center;
+    background-size: contain;
+
+}
+
+header .container {
+    background-color: #24282f;
+    padding: 30px 0;
+}
+
+header .container_logo_nav {
+    max-width: 1095px;
+    margin: auto;
+
+}
+
+.flex_logo_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 25px;
+
+}
+
+.nav li a {
+    text-decoration: none;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #ffffff;
+
+}
+
+header .header_text {
+    padding: 70px 0 80px;
+
+}
+
+header .container_header_text {
+    max-width: 630px;
+    margin: auto;
+}
+
+header .container_header_text h1 {
+    font-size: 32px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+
+header .container_header_text p {
+    font-size: 11px;
+    color: white;
+    line-height: 20px;
+
+}
+
+.management {
+    padding: 122px 0 25px;
+    background-color: white;
+
+}
+
+.management h3 {
+    color: black;
+    font-size: 19px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.management .container_management {
+    max-width: 890px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_management .photo {
+    max-width: 246px;
+    margin-bottom: 37px;
+
+}
+
+.container_management .photo img {
+    width: 100%;
+}
+
+.container_management .text_icon {
+    padding: 0 8px;
+}
+
+.container_management .text_icon .text_m h4 {
+    font-size: 13px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.container_management .text_icon .text_m span {
+    display: block;
+    font-size: 11px;
+    color: #b5a263;
+}
+
+.text_icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.icon a {
+    display: inline-block;
+    margin: -20px 2px 0;
+}
+
+.management .button {
+    text-align: center;
+    transition: 0.5s;
+
+}
+
+.management .button a {
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+
+    text-transform: uppercase;
+    padding: 13px 30px;
+    border: solid 1px black;
+    border-radius: 20px;
+
+}
+
+.management .button :hover {
+    background-color: gray;
+    font-size: 20px;
+    border: solid 2px olive;
+
+}
+
+.general {
+    padding: 95px 0 88px;
+    background-color: #f7f7f7;
+}
+
+.general .container {
+    max-width: 692px;
+    margin: auto;
+}
+
+.general h3 {
+    font-size: 19px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.general .photo_general {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.general p {
+    font-size: 11px;
+    color: black;
+    text-align: center;
+    line-height: 19px;
+    margin-bottom: 35px;
+}
+
+.general h4 {
+    color: #b5a263;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.general span {
+    display: block;
+    color: black;
+    font-size: 11px;
+    text-align: center;
+}
+
+.contact {
+    border-top: solid 2px #42464c;
+    border-bottom: solid 2px #42464c;
+    padding-top: 64px;
+    padding-bottom: 50px;
+    background-color: #2b2f35;
+}
+
+.container_contact {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container_contact .fapor_text {
+    max-width: 235px;
+}
+
+.container_contact .contact_info {
+    max-width: 145px;
+}
+
+.contact_info .form_email {
+    max-width: 240px;
+}
+
+.fapor_text h4 {
+    color: #b5a263;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}
+
+.fapor_text p {
+    color: #6e7279;
+    font-size: 11px;
+    line-height: 19px;
+}
+
+.contact_info h4 {
+    color: #b5a263;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}
+
+.contact_info p {
+    color: #6e7279;
+    font-size: 11px;
+    line-height: 19px;
+}
+
+.contact_info p span {
+    display: block;
+    margin-top: 10px;
+}
+
+.form_email h4 {
+    color: #b5a263;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}
+
+
+.form_email form input {
+    color: #6e7279;
+    font-size: 11px;
+    background-color: #2b2f35;
+    border: solid 1px #61656b;
+    height: 28px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 8px;
+
+}
+
+.form_email button {
+    height: 30px;
+    display: inline-block;
+    width: 100%;
+    color: white;
+    font-size: 11px;
+    text-transform: uppercase;
+    background-color:#b5a263;
+    border: none;
+}
+
+.footer{
+    padding: 13px 0;
+    background-color: #24282f;
+
+}
+
+footer .item{
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .item p{
+    color: #6e7279;
+    font-size: 10px;
+
+}
+footer .icon_footer a{
+    text-decoration: none;
+    margin: 0 2px;
+
+}
+
+footer .icon_footer{
+    max-width: 140px;
+    text-decoration: none;
+
+
+}
